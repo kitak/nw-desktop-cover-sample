@@ -15,15 +15,48 @@
     });
   </script>
   <style>
-    #hoge {
-      width: 300px;
-      height: 300px;
-      background-color: yellow;
+    html, body, div {
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+
+    #a {
+      position: absolute;
+      background-color: white;
+      top: 0;
+      left: 0;
+    }
+
+    #b {
+      position: absolute;
+      background-color: white;
+      top: 0;
+      right: 0;
+    }
+
+    #c {
+      position: absolute;
+      background-color: white;
+      bottom: 0;
+      right: 0;
+    }
+
+    #d {
+      position: absolute;
+      background-color: white;
+      bottom: 0;
+      left: 0;
     }
   </style>
 </head>
 <body>
-  <div id="hoge">
-  </div>
+  <div id="a">あ</div>
+  <div id="b">い</div>
+  <div id="c">う</div>
+  <div id="d">え</div>
 </body>
 </html>
